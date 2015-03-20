@@ -589,7 +589,7 @@ void TetrisBlock::UpdateBlocks()
 	else
 		rightInput = true;
 
-	if (timeElapsed_pos_y.asSeconds() >= 0.3f)
+	if (timeElapsed_pos_y.asSeconds() >= 0.25f)
 	{
 		if (ActiveBlocks[0].GetActive() == true)
 		{
